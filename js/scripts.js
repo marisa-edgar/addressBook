@@ -14,6 +14,7 @@ AddressBook.prototype.assignId = function() {
   return this.currentId;
 };
 
+
 AddressBook.prototype.findContact = function(id) {
   if (this.contacts[id] != undefined) {
     return this.contacts[id];
